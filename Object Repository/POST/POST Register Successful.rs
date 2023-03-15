@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;janet.weaver@reqres.in\&quot;, \n    \&quot;name\&quot;: \&quot;janet\&quot;, \n    \&quot;job\&quot;: \&quot;qa\&quot;,\n  \t\&quot;password\&quot; : \&quot;pistol123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;${email}\&quot;, \n    \&quot;name\&quot;: \&quot;budi\&quot;, \n    \&quot;job\&quot;: \&quot;qa\&quot;,\n  \t\&quot;password\&quot; : \&quot;pistol123\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -36,6 +36,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.email</defaultValue>
+      <description></description>
+      <id>1f4a35f4-df2c-4af9-88d9-5a4d6fbc54ca</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
