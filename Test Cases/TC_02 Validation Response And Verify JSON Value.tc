@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send Request Get Single User</description>
+   <name>TC_02 Validation Response And Verify JSON Value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef8cd831-57a1-4aa0-8552-06c887f3e797</testCaseGuid>
+</TestCaseEntity>
